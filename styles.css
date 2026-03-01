@@ -262,14 +262,27 @@ form {
     font-size: .8rem;
 }
 
-input {
+input, textarea {
     margin: 5px 0 15px 0;
     padding: 8px 0;
     width: 100%;
     border: 2px solid var(--blue);
 }
 
-input
+textarea {
+    padding: 30px 0;
+}
+
+input[type=submit] {
+    background-color: var(--blue);
+    color: var(--white);
+    font-weight: bold;
+    font-size: .95rem;
+    border: none;
+    border-radius: 9px;
+    padding: 13px 0;
+    margin-top: 15px;
+}
 
 /* MEDIA QUERIES (MEDIUM) */ 
 
