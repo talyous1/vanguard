@@ -169,6 +169,25 @@ p {
     padding: 20px 0 25px 15px;
 }
 
+table {
+    margin: 0 auto;
+}
+
+table, th, td {
+    border: 1px solid var(--charcoal);
+    font-size: .8rem;
+    text-align: center;
+    background-color: var(--black);
+}
+
+th {
+    font-weight: bold;
+}
+
+th, td {
+    padding: 15px 25px;
+}
+
 /* THIS ONE IS DONE FOR YOU */
 #bar-chart {
     display: grid;
