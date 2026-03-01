@@ -160,6 +160,7 @@ p {
 #results {
     color: var(--white);
     background-color: var(--blue);
+    padding-bottom: 20px;
 }
 
 #results h3 {
@@ -214,7 +215,10 @@ p {
     animation: stepUp 1s ease-in-out forwards;
 }
 
-
+#contact, footer {
+    background-color: var(--black);
+    color: var(--white);
+}
 
 
 /* MEDIA QUERIES (MEDIUM) */ 
