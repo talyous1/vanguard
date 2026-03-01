@@ -101,7 +101,9 @@ body {
 }
 
 #innovation a {
-    margin-top: 15px;
+    margin: 15px auto 0 auto;
+    display: block;
+    width: 190px;
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
