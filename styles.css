@@ -117,6 +117,10 @@ h2 {
     margin: 30px 0 25px 0;
 }
 
+#offer h2 {
+    margin-bottom: 30px;
+}
+
 h3 {
     padding: 30px 0 15px 0;
     font-weight: bold;
@@ -147,6 +151,11 @@ p {
 
 .offering p {
     padding-bottom: 15px;
+}
+
+#results {
+    color: var(--white);
+    background-color: var(--blue);
 }
 
 /* THIS ONE IS DONE FOR YOU */
