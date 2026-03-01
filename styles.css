@@ -114,15 +114,15 @@ h1 {
 h2 {
     font-size: 1.6rem;
     font-weight: 750;
-    margin: 30px 0 25px 0;
+    padding: 30px 0 20px 15px;
 }
 
 #offer h2 {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 
 h3 {
-    padding: 30px 0 15px 0;
+    padding: 30px 0 15px 15px;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -141,6 +141,10 @@ p {
     font-weight: bold;
 }
 
+#offer {
+    padding-bottom: 50px;
+}
+
 .offering {
     background-color: var(--blue);
     color: var(--white);
@@ -156,6 +160,12 @@ p {
 #results {
     color: var(--white);
     background-color: var(--blue);
+}
+
+#results h3 {
+    font-size: 1.5rem;
+    font-weight: 750;
+    padding: 20px 0 25px 15px;
 }
 
 /* THIS ONE IS DONE FOR YOU */
