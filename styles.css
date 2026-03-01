@@ -171,13 +171,12 @@ p {
 
 table {
     margin: 0 auto;
+    background-color: var(--black);
 }
 
 table, th, td {
     border: 1px solid var(--charcoal);
     font-size: .8rem;
-    text-align: center;
-    background-color: var(--black);
 }
 
 th {
@@ -186,6 +185,10 @@ th {
 
 th, td {
     padding: 15px 25px;
+}
+
+#results table tbody tr:nth-child(even) {
+    background-color: var(--charcoal);
 }
 
 /* THIS ONE IS DONE FOR YOU */
