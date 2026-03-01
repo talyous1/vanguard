@@ -118,7 +118,7 @@ h2 {
 }
 
 h3 {
-    padding: 30px 0 25px 0;
+    padding: 30px 0 15px 0;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -142,7 +142,7 @@ p {
     color: var(--white);
     padding: 0 15px;
     margin-bottom: 15px;
-    radi
+    border-radius: 9px;
 }
 
 .offering p {
