@@ -172,6 +172,7 @@ p {
 table {
     margin: 0 auto;
     background-color: var(--black);
+    margin-bottom: 10px;
 }
 
 table, th, td {
@@ -255,6 +256,10 @@ footer a {
 footer a:last-of-type {
     color: var(--white);
     text-decoration: none;
+}
+
+form {
+    font-size: .8rem;
 }
 
 /* MEDIA QUERIES (MEDIUM) */ 
