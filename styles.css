@@ -106,6 +106,10 @@ body {
     width: 190px;
 }
 
+#inno {
+
+}
+
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
 h1::before {
     content: "";
