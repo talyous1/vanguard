@@ -84,7 +84,7 @@ body {
     margin: 0 auto;
 }
 
-nav ul {
+header nav ul {
   width: 100%;
   margin:0;
   padding:0;
@@ -94,12 +94,12 @@ nav ul {
   max-height: 0;
 }
 
-nav h2 {
+header nav h2 {
   visibility:hidden;
   height:1px;
 }
 
-nav li a {
+header nav li a {
   display:block;
   font-family:sans-serif;
   font-size:1.5rem;
@@ -111,12 +111,12 @@ nav li a {
   transition: background-color .3s ease-in;
 }
 
-nav li a:hover {
+header nav li a:hover {
     background-color: var(--blue);
     color: var(--black);
 }
 
-nav label {
+header nav label {
     cursor: pointer;
     display: inline-block;
     padding: .75rem;
@@ -126,7 +126,7 @@ nav label {
     right: 1rem;
 }
 
-label span {
+header label span {
     background-color: white;
     display: block;
     height: .2rem;
@@ -135,7 +135,7 @@ label span {
     width: 1.5rem;
 }
 
-label span:before, label span:after {
+header label span:before, label span:after {
     background: white;
     content: '';
     display: block;
@@ -145,24 +145,24 @@ label span:before, label span:after {
     width: 100%;
 }
 
-label span:before {
+header label span:before {
     top: .55rem;
 }
 
-label span:after {
+header label span:after {
     top: -.55rem;
 }
 
-input {
+header input {
   display:none;
 }
 
-input:checked ~ ul {
+header input:checked ~ ul {
     max-height: 500px;
 }
 
 @media screen and (min-width: 600px){
-  nav ul {
+  header nav ul {
     overflow:visible;
     position:absolute;
     top: 1.5rem;
@@ -170,10 +170,10 @@ input:checked ~ ul {
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
   }
-  nav li a {
+  header nav li a {
     display:inline-block;
   }
-  label span, input {
+  header label span, header  input {
     display:none;
   }
 }
