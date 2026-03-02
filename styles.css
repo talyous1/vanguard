@@ -418,7 +418,18 @@ input[type=submit] {
     #inno {
         max-width: 80%;
     }
-    
+
+    h2 {
+        font-size: 1.8rem;
+        padding-top: 50px;
+    }
+
+    #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        column-gap: 15px;
+    }
 }
 
 /* MEDIA QUERIES (LARGE) */
