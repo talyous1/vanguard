@@ -107,13 +107,15 @@ nav li a {
   text-transform:uppercase;
   font-weight:bold;
   text-decoration:none;
-  color: white;
+  color: var(--blue);
   transition: background-color .3s ease-in;
 }
 
-nav a:hover, nav input:hover {
-    background-color: black;
+nav li a:hover {
+    background-color: var(--blue);
+    color: var(--black);
 }
+
 nav label {
     cursor: pointer;
     display: inline-block;
@@ -159,22 +161,6 @@ input:checked ~ ul {
     max-height: 500px;
 }
 
-input:checked ~ label span {
-    background: transparent;
-}
-
-input:checked ~ label span:before {
-    transform: rotate(-45deg);
-}
-
-input:checked ~ label span:after {
-    transform: rotate(45deg);
-}
-
-input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps) span:after {
-    top: 0;
-}
-
 @media screen and (min-width: 600px){
   nav ul {
     overflow:visible;
@@ -186,7 +172,7 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
   }
   nav li a {
     display:inline-block;
-}
+  }
   label span, input {
     display:none;
   }
@@ -415,7 +401,7 @@ input[type=submit] {
 }
 
 /* MEDIA QUERIES (MEDIUM) */ 
-
+@media all and (min-width: 800px) {
     #results {
         grid-template-columns: 1fr 1fr;
     }
@@ -430,5 +416,5 @@ input[type=submit] {
         width: 50%;
     }
 
-
+}
 /* MEDIA QUERIES (LARGE) */
