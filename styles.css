@@ -229,13 +229,15 @@ h1::before {
     width: 3.75rem;
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
-
+    
 }
 
 h1 {
   color: var(--blue);  
   font-weight: bold;
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
 }
 
 h2 {
