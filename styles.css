@@ -69,6 +69,7 @@ header {
     background-color: var(--black);
     color: var(--white);
     position:relative;
+    padding-top: 30px;
 }
 /* MIN-WIDTH OF THE PAGE SHOULD NOT GO BELOW 400PX */
 body {
@@ -119,7 +120,7 @@ nav label {
     padding: .75rem;
     user-select: none;
     position: absolute;
-    top: 1rem;
+    top: 3.5rem;
     right: 1rem;
 }
 
@@ -229,7 +230,7 @@ h1::before {
     width: 3.75rem;
     height: 3.75rem;
     background: url('images/vanguard-logo.svg') no-repeat center/contain;
-    
+    padding-left: 30px;
 }
 
 h1 {
