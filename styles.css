@@ -116,7 +116,7 @@ nav a:hover, nav input:hover {
 nav label {
     cursor: pointer;
     display: inline-block;
-    padding: 1.5rem;
+    padding: .75rem;
     user-select: none;
     position: absolute;
     top: 1rem;
@@ -126,10 +126,10 @@ nav label {
 label span {
     background-color: white;
     display: block;
-    height: .25rem;
+    height: .2rem;
     position: relative;
     transition: background-color .3s ease-out;
-    width: 2rem;
+    width: 1.5rem;
 }
 
 label span:before, label span:after {
@@ -143,11 +143,11 @@ label span:before, label span:after {
 }
 
 label span:before {
-    top: .75rem;
+    top: .55rem;
 }
 
 label span:after {
-    top: -.75rem;
+    top: -.55rem;
 }
 
 input {
