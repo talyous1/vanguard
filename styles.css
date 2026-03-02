@@ -214,7 +214,9 @@ header input:checked ~ ul {
 }
 
 @keyframes fadeIn {
-    from {transform: translateY(-10px);}
+    from {
+        transform: translateY(-10px);
+    }
     to {
         opacity: 1;
     }
