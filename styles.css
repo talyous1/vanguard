@@ -289,6 +289,7 @@ table {
     margin: 0 auto;
     background-color: var(--black);
     margin-bottom: 10px;
+    text-align: center;
 }
 
 table, th, td {
@@ -452,24 +453,9 @@ input[type=submit] {
         display: flex;
     }
 
-    table {
-    margin: 0 auto;
-    background-color: var(--black);
-    margin-bottom: 10px;
-}
-
-table, th, td {
-    border: 1px solid var(--charcoal);
-    font-size: .8rem;
-}
-
-th {
-    font-weight: bold;
-}
-
-th, td {
-    padding: 15px 25px;
-}
+    th, td {
+        padding: 24px 15px;
+    }
 }
 
 /* MEDIA QUERIES (LARGE) */
