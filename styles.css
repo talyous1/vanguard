@@ -118,6 +118,9 @@ nav label {
     display: inline-block;
     padding: 1.5rem;
     user-select: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
 }
 
 label span {
