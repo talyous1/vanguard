@@ -107,7 +107,9 @@ body {
 }
 
 #inno {
-
+    background: rgba(255, 255, 255, 0.02);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
 }
 
 /* ADD FLOATING SVG LOGO BEFORE THE H1 */
