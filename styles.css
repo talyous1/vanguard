@@ -451,11 +451,39 @@ input[type=submit] {
 
     #profitsngrowth {
         display: flex;
+        gap: 15px;
     }
 
     th, td {
-        padding: 24px 15px;
+        padding: 22px 15px;
+        font-size: 1rem;
+    }
+
+    footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
     }
 }
 
 /* MEDIA QUERIES (LARGE) */
+@media all and (min-width: 1024px) {
+     #offerings {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        column-gap: 15px;
+    }
+
+    #offer h3 {
+        font-size: 1.3rem;
+    }
+
+    th, td {
+        padding: 22px 40px;
+        font-size: 1rem;
+    }
+
+    #bar-chart {
+    gap: 3rem;
+    }
+}
