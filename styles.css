@@ -165,10 +165,11 @@ header input:checked ~ ul {
   header nav ul {
     overflow:visible;
     position:absolute;
-    top: 1.5rem;
-    left:.5rem;
+    top: 2.2rem;
+    right: 5rem;
     display: grid;
     grid-template-columns:1fr 1fr 1fr;
+    max-width: 500px;
   }
   header nav li a {
     display:inline-block;
@@ -208,7 +209,7 @@ header input:checked ~ ul {
     -webkit-backdrop-filter: blur(12px);
 }
 
-.fade-in {
+.fade-in, h2, h3 {
     opacity: 0;
     animation: fadeIn 1.5s ease forwards;
 }
@@ -288,6 +289,12 @@ p {
     padding: 0 15px;
     margin-bottom: 15px;
     border-radius: 9px;
+    transition: all 5s ease;
+    position: relative;
+}
+
+.offering:hover {
+    bottom:10px;
 }
 
 .offering p {
